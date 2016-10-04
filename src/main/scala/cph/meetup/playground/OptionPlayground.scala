@@ -18,7 +18,5 @@ object OptionPlayground extends App {
 
   val p = meanLenient(Seq())
 
-
+  // lifting
 }
-
-case class
