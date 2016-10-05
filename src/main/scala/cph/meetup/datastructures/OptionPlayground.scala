@@ -1,4 +1,4 @@
-package cph.meetup.playground
+package cph.meetup.datastructures
 
 object OptionPlayground extends App {
 
@@ -7,16 +7,23 @@ object OptionPlayground extends App {
       throw new ArithmeticException("mean of empty list!")
     else xs.sum / xs.length
 
-  def meanLenient(xs: Seq[Double]): Double =
-    xs.sum / xs.length
+  def meanLenient(xs: Seq[Double]): Double = ???
 
   // implement via Option
   def meanOption(xs: Seq[Double]): Double = ???
 
-  Console println mean(Seq(2, 3, 4, 5))
-  Console println mean(Seq(2, 3, 4, 5))
 
-  val p = meanLenient(Seq())
+
+
+
+
+
+
+
+
+
 
   // lifting
+  def Try[A](a: => A): Option[A] = ???
+
 }

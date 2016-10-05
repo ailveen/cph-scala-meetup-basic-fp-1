@@ -2,8 +2,10 @@ package cph.meetup.monads
 
 object MonadLaws extends App {
 
-  // left identity
   val f = (i: Int) => List(i * 8)
+
+  // left identity
+
   Console println List(2).flatMap(f)
   Console println f(2)
 

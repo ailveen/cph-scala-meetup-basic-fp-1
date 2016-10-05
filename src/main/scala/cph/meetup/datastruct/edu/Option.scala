@@ -1,4 +1,4 @@
-package cph.meetup.datastructures
+package cph.meetup.datastruct.edu
 
 trait Option[+A] {
   def map[B](f: A => B): Option[B]
