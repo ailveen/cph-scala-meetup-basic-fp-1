@@ -13,7 +13,7 @@ object ForComprehension extends App {
   def findPerson(name: String): Option[Person] =
     personMap.get(name)
 
-  private val maybeInt: Option[Int] = for {
+  val maybeInt = for {
     p <- findPerson("Abby")
     tel <- p.telephone
   } yield tel

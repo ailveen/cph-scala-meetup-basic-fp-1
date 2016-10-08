@@ -8,7 +8,6 @@ object FunctorLaws extends App {
 
   val f : Int => String = x => x + 3 + ""
 
-  // reimplement this on the meetup
   Console println l.map(f)
 
   val g: String => String = s => s"$s appended"

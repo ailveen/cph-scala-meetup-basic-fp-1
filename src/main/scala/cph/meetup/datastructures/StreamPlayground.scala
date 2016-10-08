@@ -11,5 +11,5 @@ object StreamPlayground extends App {
   }
 
   // stream of infinite fibonaccis
-  def fibStream(n: Long): Stream[Long] = ???
+  def fibStream(n: Long): Stream[Long] = fib(n) #:: fibStream(n + 1)
 }
